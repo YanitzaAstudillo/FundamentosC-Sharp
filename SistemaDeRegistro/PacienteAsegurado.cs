@@ -15,7 +15,7 @@ namespace SistemaDeRegistro
 
         public override void MostrarInformacion()
         {
-            Console.WriteLine($"Paciente Asegurado: {GetNombre()}, Edad: {Edad},  Cedula: {GetCedula()}, EstadoCivil: {EstadoCivil}, Tipo de afiliacion: {TipoAfiliacion}");
+            Console.WriteLine($"Paciente Asegurado: {GetNombre()}, Edad: {Edad},  Cedula: {GetCedula()}, EstadoCivil: {GetEstadoCivil()}");
         }
 
     }

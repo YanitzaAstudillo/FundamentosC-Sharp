@@ -1,0 +1,6 @@
+Ana Rojas,30,223344,soltera
+Tony Torres,35,112233,soltero
+Ramon Paez,50,667788,casado
+Beny Alvarez,40,5555,soltero
+Juanito Mora,50,8888,casado
+Rita Murillo,60,7777,casada

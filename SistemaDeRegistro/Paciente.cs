@@ -5,16 +5,15 @@ namespace SistemaDeRegistro
 {
     public class Paciente : Persona
     {
-        protected string EstadoCivil;
-
-        public Paciente(string nombre, int edad, string cedula, string estadocivil) : base(nombre, edad, cedula)
+        public Paciente(string nombre, int edad, string cedula, string estadoCivil)
+            : base(nombre, edad, cedula, estadoCivil)
         {
-            this.EstadoCivil = estadocivil;
         }
+    
 
         public virtual void MostrarInformacion()
         {
-            Console.WriteLine($"Paciente: {this.GetNombre()}, Edad: {this.Edad}, Cedula: {this.GetCedula()}, Carrera: {this.EstadoCivil}");
+            Console.WriteLine($"Paciente: {this.GetNombre()}, Edad: {this.Edad}, Cedula: {this.GetCedula()}, EstadoCivil: {this.GetEstadoCivil}");
         }
     }
 }

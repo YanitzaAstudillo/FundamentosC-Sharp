@@ -9,12 +9,16 @@ namespace SistemaDeRegistro
     private string Nombre;
     public int Edad { get; set; }
     private string Cedula;
+    private string EstadoCivil;
+    
 
-    public Persona(string nombre, int edad, string cedula)
+    public Persona(string nombre, int edad, string cedula, string estadoCivil)
         {
             this.Nombre= nombre;
             this.Edad= edad;
             this.Cedula = cedula;
+            this.EstadoCivil= estadoCivil;
+            
         }
 
         public void SetNombre(string nuevoNombre)
@@ -35,6 +39,11 @@ namespace SistemaDeRegistro
         public string GetCedula()
         {
             return this.Cedula;
+        }
+
+        public string GetEstadoCivil()
+        {
+            return this.EstadoCivil;
         }
 
     }
