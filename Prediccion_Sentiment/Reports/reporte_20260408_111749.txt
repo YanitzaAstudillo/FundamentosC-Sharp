@@ -1,0 +1,12 @@
+
+                ===== REPORTE DEL MODELO =====
+                Fecha: 8/4/2026 11:17:49:AM
+
+                Accuracy: 81,06 %
+                F1 Score: 81,42 %
+                Precision: 79,78 %
+                Recall: 83,14 %
+                AUC: 89,22 %
+
+                ================================
+                
